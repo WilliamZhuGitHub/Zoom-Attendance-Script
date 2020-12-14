@@ -1,7 +1,7 @@
 # Zoom-Attendance-Script
 ## General Information
 * Uses Zoom generated attendance excel files to create a master attendance sheet
-* Iterates over the names of the attendance files and searches for the name in the master file. If a name is found their attendance count will increase.
+* Iterates over the names of the attendance files and searches for the name in the master file. If a name is found their attendance count will increase. If a name is not found the name will be added and their attendance count will be 1. 
 
 ## Libraries Used
 * To run please install the following libraries
